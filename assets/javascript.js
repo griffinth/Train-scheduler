@@ -1,15 +1,17 @@
 // Initialize Firebase
-var firebaseConfig = {
-    apiKey: "AIzaSyA703O02EupZK2CE3-8TfOsMwODY0n3SGM",
-    authDomain: "train-scheduler-4b9a4.firebaseapp.com",
-    databaseURL: "https://train-scheduler-4b9a4.firebaseio.com",
-    projectId: "train-scheduler-4b9a4",
-    storageBucket: "train-scheduler-4b9a4.appspot.com",
-    messagingSenderId: "720274356416",
-    appId: "1:720274356416:web:6ba4e7de0764aa3f"
+
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD3H6tEPm3cOaxaawA5HhvpXzbRHIoKb6w",
+    authDomain: "trainschedule-312b6.firebaseapp.com",
+    databaseURL: "https://trainschedule-312b6.firebaseio.com",
+    projectId: "trainschedule-312b6",
+    storageBucket: "",
+    messagingSenderId: "467892718827",
+    appId: "1:467892718827:web:3ee6f668314c18be"
   };
-  
-  firebase.initializeApp(config);
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
   
   // Create a variable to reference the database
   var database = firebase.database();
@@ -49,7 +51,7 @@ var firebaseConfig = {
   });
   
   // create a firebase event for adding the data from the new trains and then populating them in the DOM.
-  database.ref().on("child_added", function(childSnapshot, prevChildKey) {
+  database.ref().on("child_added", function(childSnapshot) {
     console.log(childSnapshot.val());
   
     // store snapshot changes in variables
