@@ -1,18 +1,18 @@
 // Initialize Firebase
 
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyD3H6tEPm3cOaxaawA5HhvpXzbRHIoKb6w",
-    authDomain: "trainschedule-312b6.firebaseapp.com",
-    databaseURL: "https://trainschedule-312b6.firebaseio.com",
-    projectId: "trainschedule-312b6",
-    storageBucket: "",
-    messagingSenderId: "467892718827",
-    appId: "1:467892718827:web:3ee6f668314c18be"
+   // Your web app's Firebase configuration
+   var firebaseConfig = {
+    apiKey: "AIzaSyDlQAAHKgsvcxJX3FnDfooTKCZaFM2Lf_M",
+    authDomain: "fasttrains-aa18c.firebaseapp.com",
+    databaseURL: "https://fasttrains-aa18c.firebaseio.com",
+    projectId: "fasttrains-aa18c",
+    storageBucket: "fasttrains-aa18c.appspot.com",
+    messagingSenderId: "503804973291",
+    appId: "1:503804973291:web:7e7fa2a462589f17"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  
+    
   // Create a variable to reference the database
   var database = firebase.database();
   
