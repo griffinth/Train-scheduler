@@ -2,15 +2,15 @@
 $(document).ready(function () {
   console.log
 
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDlQAAHKgsvcxJX3FnDfooTKCZaFM2Lf_M",
-    authDomain: "fasttrains-aa18c.firebaseapp.com",
-    databaseURL: "https://fasttrains-aa18c.firebaseio.com",
-    projectId: "fasttrains-aa18c",
-    storageBucket: "fasttrains-aa18c.appspot.com",
-    messagingSenderId: "503804973291",
-    appId: "1:503804973291:web:7e7fa2a462589f17"
+   // Your web app's Firebase configuration
+   var firebaseConfig = {
+    apiKey: "AIzaSyDABzdc-kR06HoO_f0yP1bdbJvXYuK9cvc",
+    authDomain: "trainschedule-85fd7.firebaseapp.com",
+    databaseURL: "https://trainschedule-85fd7.firebaseio.com",
+    projectId: "trainschedule-85fd7",
+    storageBucket: "trainschedule-85fd7.appspot.com",
+    messagingSenderId: "60763308452",
+    appId: "1:60763308452:web:1b7335e98dbb2898"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
